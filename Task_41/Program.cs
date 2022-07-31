@@ -14,7 +14,7 @@ int[] FillArrey(int num, int min, int max)
 void Сounter(int[] arr)
 {
     int count = 0;
-    for (int i = 0; i <= arr.Length; i++)
+    for (int i = 0; i < arr.Length; i++)
     {
         if (arr[i] > 0)
         {
